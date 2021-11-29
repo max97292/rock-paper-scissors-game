@@ -232,3 +232,23 @@ h6 {
   background: #fa65ff;
   color: #fdedfd;
 }
+
+@media screen and (max-width: 768px) {
+  .game-state p {
+    font-size: 20px;
+  }
+
+  .game-state button {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .game-state svg {
+    width: 50xp;
+    height: 50px;
+  }
+
+  .game-state > div {
+    width: 100%;
+  }
+}
